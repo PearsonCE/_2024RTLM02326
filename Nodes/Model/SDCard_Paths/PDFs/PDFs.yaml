@@ -1,0 +1,48 @@
+Name: PDFs
+Type: FolderType
+Children:
+- Name: Electrical
+  Id: g=f1dfac820e9d5426fc426bbe5b1021b4
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/PDFs/WireSchematic.pdf"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Pneumatics
+  Id: g=ba397dee5878468969b59f451275a50b
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/PDFs/PneumaticSchematic.pdf"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Manual
+  Id: g=9f08caae4c0476ad1672a3cba5c373f0
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/PDFs/Manual.pdf"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

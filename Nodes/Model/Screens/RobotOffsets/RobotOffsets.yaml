@@ -1,0 +1,10 @@
+Name: RobotOffsets
+Type: FolderType
+Children:
+- Name: RobotOffsetVariables
+  Type: BaseObjectType
+  Children:
+  - Name: RobotOffsetInEdit
+    Id: g=b7959dc1fb85b258b2f391aa2a0dbd21
+    Type: BaseDataVariableType
+    DataType: Boolean

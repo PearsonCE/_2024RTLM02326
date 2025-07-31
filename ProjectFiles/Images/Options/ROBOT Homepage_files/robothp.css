@@ -1,0 +1,1970 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Foundation
+   ========================================================================== */
+
+/* Reset
+   ----------------------------------------------------------------- */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Base
+   ----------------------------------------------------------------- */
+
+html {
+  height: 100%;
+  overflow-x: auto;
+  background: #f5f5f5;
+  color: #000000;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html[lang="eg"] {
+  font-family: Verdana, Meiryo, "Hiragino Kaku Gothic Pro", Osaka, "MS PGothic", sans-serif;
+}
+
+html[lang="kn"],
+html[lang="jp"] {
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro", Osaka, "MS PGothic", sans-serif;
+}
+
+html[lang="ch"] {
+  font-family : 'SimSun','sans-serif';
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #e1e7ec;
+  min-width: 930px;
+  min-height: 790px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a.nowdisp:hover {
+  opacity: 1;
+  cursor: default;
+}
+
+input[type="text"] {
+  height: 44px;
+  border: #97a1ae solid 1px;
+}
+
+table {
+  border: #cccccc solid 1px;
+}
+
+ul li {
+  display: block;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+/*
+_ #wrapper __________________________
+| _ #header _______________________  |
+| |________________________________| |
+| _ #container ____________________  |
+| |
+|
+
+/* wrapper */
+
+#wrapper {
+  height: 100%;
+}
+
+/* container */
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Main content */
+
+#maincol {
+  height: 100%;
+  border-left: 1px solid #000;
+  float: left;
+  width: 66%;
+  width: calc(100% - 310px);
+}
+
+#navi {
+  float:left;
+  width: 310px;
+  height: 100%;
+  background: #67727e;
+  overflow: hidden;
+}
+
+/****************************/
+/*         iPendant         */
+/****************************/
+
+#ipendant {
+  min-width: 649px;
+  min-height: 520px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+/* Main content */
+
+#ipendant #maincol {
+  height: 520px;
+  padding-left: 1px;
+  width: 67%;
+  overflow: hidden;
+}
+
+#ipendant #navi {
+  float: left;
+  width: 210px;
+  z-index: 999;
+}
+
+/****************************/
+/*    Remote(jcgtp-size)    */
+/****************************/
+
+.remote {
+  min-height: 689px;
+  min-width: 800px;
+}
+
+.remote #container {
+  position: relative;
+  top: 0px;
+}
+
+.remote #maincol {
+  width: 71%;
+  width: calc(100% - 284px);
+}
+
+.remote #navi {
+  width: auto;
+  z-index: 999;
+}
+
+/****************************/
+/*    Remote(cgtp-size)     */
+/****************************/
+
+.remote.cgtp {
+  min-height: 398px;
+  min-width: 650px;
+}
+
+.remote.cgtp #maincol {
+  width: 66%;
+  width: calc(100% - 210px);
+}
+
+/****************************/
+/*            IE 7          */
+/****************************/
+
+.ie7.remote.cgtp {
+  min-width: 644px;
+}
+
+/****************************/
+/*      Display iRVison     */
+/****************************/
+
+.vision {
+  min-width: 1360px;
+  min-height: 1050px;
+}
+
+/* ==========================================================================
+   Object
+   ========================================================================== */
+
+/* Component
+   ----------------------------------------------------------------- */
+
+/** Button **/
+
+.c-btn {
+  color: #ffffff
+}
+
+.c-btn--enable {
+  background-color: #67727e;
+}
+
+.c-btn--disable {
+  background-color: #67727e;
+}
+
+.c-btn--focus {
+  background-color: #4a7799;
+}
+
+.c-btn--active {
+  background-color: #0e6eb8;
+}
+
+
+.c-txtbtn {
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+.c-chkbtn {
+  margin-bottom: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.c-linkbtn {
+  float: left;
+  width: 33%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.c-linkbtn>a {
+  display: table;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 5px;
+}
+
+.c-linkbtn__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.c-linkbtn__icn {
+  position: absolute;
+  left: 50%;
+  margin-left: -34px;
+}
+
+/* Vision Setup */
+.c-linkbtn_2 {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_2>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_2__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_2__icn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.c-linkbtn_2_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+/* Workcell Setup */
+.c-linkbtn_3 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_3>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_3__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_3_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_3__icn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+/* Parts List Manager */
+.c-linkbtn_4 {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_4>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_4__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_4_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_4__icn {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+/* Interference Avoidance Setup */
+.c-linkbtn_5 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_5>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_5__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_5_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_5__icn {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+/* Vision Runtime */
+.c-linkbtn_6 {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_6>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_6__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_6__icn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.c-linkbtn_6_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+/* Workcell Production Status */
+.c-linkbtn_7 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_7>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_7__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_7_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_7__icn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+/* Vision Devices */
+.c-linkbtn_8 {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_8>a {
+  display: table;
+  position: relative;
+  width: 175px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_8__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  right: 10px;
+}
+
+.c-linkbtn_8_2__txt {
+  float: left;
+  display: block;
+  width: 175px;
+  margin-left: 30px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_8__icn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Vision Log */
+.c-linkbtn_9 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_9>a {
+  display: table;
+  position: relative;
+  width: 175px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_9__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  right: 10px;
+}
+
+.c-linkbtn_9_2__txt {
+  float: left;
+  display: block;
+  width: 175px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_9__icn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Vision Config */
+.c-linkbtn_10 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_10>a {
+  display: table;
+  position: relative;
+  width: 175px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_10__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  right: 10px;
+}
+
+.c-linkbtn_10_2__txt {
+  float: left;
+  display: block;
+  width: 175px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_10__icn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Image Registers */
+.c-linkbtn_11 {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_11>a {
+  display: table;
+  position: relative;
+  width: 175px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_11__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  right: 10px;
+}
+
+.c-linkbtn_11_2__txt {
+  float: left;
+  display: block;
+  width: 175px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_11__icn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+/* Information for beginners */
+.c-linkbtn_12 {
+  float: left;
+  margin-top: 53px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_12>a {
+  display: table;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 17px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_12__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_12_2__txt {
+  float: left;
+  display: block;
+  width: 200px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_12__icn {
+  position: absolute;
+  left: 80%;
+  margin-left: -34px;
+}
+
+/* Tutorial */
+.c-linkbtn_13 {
+  float: left;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_13>a {
+  display: table;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 17px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_13__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_13_2__txt {
+  float: left;
+  display: block;
+  width: 200px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_13__icn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Trouble shooting */
+.c-linkbtn_14 {
+  float: left;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_14>a {
+  display: table;
+  position: relative;
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+  padding: 17px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_14__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_14_2__txt {
+  float: left;
+  display: block;
+  width: 200px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_14__icn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+/* Realtime Visual Tracking */
+.c-linkbtn_15 {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.c-linkbtn_15>a {
+  display: table;
+  position: relative;
+  width: 360px;
+  height: 85px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #67727e;
+  border-radius: 6px;
+}
+
+.c-linkbtn_15__txt {
+  display: table-cell;
+  position: relative;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.c-linkbtn_15_2__txt {
+  float: left;
+  display: block;
+  width: 360px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgb(0,0,0);
+  vertical-align: middle;
+}
+
+.c-linkbtn_15__icn {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+/* first_element~forth_element */
+.p-horizontal_element {
+  /* display:block;*/ 
+  display: table;
+  width:770px;
+  height: calc(100% - 93px);
+  float: left;
+}
+
+/* Vision Setup/Workcell Setup */
+.p-first_element {
+  display: block;
+  width: 100%;
+  height: 235px;
+}
+
+/* Parts List Manager/Interference Avoidance Setup/Realtime Visual Tracking */
+.p-second_element {
+  display: block;
+  width: 100%;
+  height: 140px;
+}
+
+/* Vision Runtime/Workcell Production Status */
+.p-third_element {
+  /* display: block; */
+  display:table;
+  width: 100%;
+  height: 210px;
+}
+
+/* Vision Devices/Vision Log/Vision Config/Image Registers */
+.p-fourth_element {
+  display: block;
+  width: 100%;
+  height: 210px;
+}
+
+/* Information for beginners/Tutorial */
+.p-fifth_element {
+  display: block;
+  width:240px;
+  float: left;
+}
+
+.p-clearfix {
+  clear: both;
+}
+
+.c-teaching_item__txt {
+  color: rgb(0,0,0);
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+  width: 730px;
+  border-bottom: solid 1px;
+}
+
+.c-production_status_item__txt {
+  color: rgb(0,0,0);
+  margin-left: 30px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  width: 730px;
+  border-bottom: solid 1px;
+}
+
+.c-info_item__txt {
+  color: rgb(0,0,0);
+  margin-left: 30px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  width: 730px;
+  border-bottom: solid 1px;
+}
+
+/* icon image */
+.c-img_btnlink_43 {
+  background-image: url(btnlink_43.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 40px;
+}
+
+.c-img_btnlink_06 {
+  background-image: url(btnlink_06.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-img_btnlink_42 {
+  background-image: url(btnlink_42.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-img_btnlink_53 {
+  background-image: url(btnlink_53.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-img_btnlink_52 {
+  background-image: url(btnlink_52.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-img_btnlink_55 {
+  background-image: url(btnlink_55.png);
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-img_btnlink_05 {
+  background-image: url(btnlink_05.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-top:5px;
+}
+
+.c-img_btnlink_11 {
+  background-image: url(btnlink_11.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-top:5px;
+}
+
+.c-img_btnlink_04 {
+  background-image: url(btnlink_04.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-top:5px;
+}
+
+.c-img_btnlink_10 {
+  background-image: url(btnlink_10.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-top:5px;
+}
+
+.c-img_btnlink_09 {
+  background-image: url(btnlink_09.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 70px;
+  height: 54px;
+}
+
+.c-img_btnlink_08 {
+  background-image: url(btnlink_08.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 70px;
+  height: 54px;
+}
+
+.c-img_btnlink_56 {
+  background-image: url(btnlink_56.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 70px;
+  height: 54px;
+  margin-top: 10px;
+}
+
+/****************************/
+/*         iPendant         */
+/****************************/
+
+#ipendant .c-linkbtn {
+  width: 32%;
+  margin-bottom: 14px;
+}
+
+#ipendant .c-linkbtn>a {
+  position: relative;
+  display: block;
+  width: 130px;
+  height: 130px;
+  padding: 0px;
+}
+
+#ipendant .c-linkbtn__txt {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+#ipendant .c-linkbtn__icn {
+  position: relative;
+  display: block;
+  left: 0;
+  top: 8px;
+  margin-left: 0;
+}
+
+/****************************/
+/*    Remote(jcgtp-size)    */
+/****************************/
+
+.remote .c-linkbtn {
+  float: left;
+  width: 32%;
+  margin-bottom: 13px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.remote .c-linkbtn>a {
+  display: block;
+  position: relative;
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.remote .c-linkbtn__txt {
+  display: inline;
+  position: absolute;
+  bottom: 9px;
+  left: 8px;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  vertical-align: bottom;
+  cursor:pointer;
+}
+
+.remote .c-linkbtn__icn{
+  position: relative;
+  display: block;
+  z-index: 1;
+  left:0;
+  top:12px;
+  margin-left: 38px;
+}
+
+/****************************/
+/*    Remote(cgtp-size)     */
+/****************************/
+
+.remote.cgtp .c-linkbtn {
+  margin-bottom: 19px;
+  margin-left: 1px;
+}
+
+.remote.cgtp .c-linkbtn > a {
+  width: 130px;
+  height: 130px;
+  border-radius: 4px;
+}
+
+.remote.cgtp .c-linkbtn__txt {
+  bottom: 8px;
+  left: 8px;
+  line-height: 14px;
+}
+
+.remote.cgtp .c-linkbtn__icn {
+  top:7px;
+  margin-left: 32px;
+}
+
+/****************************/
+/*            IE 7          */
+/****************************/
+
+.ie7 .c-linkbtn>a {
+  display: block;
+  width: 145px;
+  height: 145px;
+}
+
+.ie7 .c-linkbtn__txt {
+  position: absolute;
+  display: inline;
+  bottom: 20px;
+  left: 20px;
+}
+
+.ie7 .c-linkbtn__icn {
+  bottom: 95px;
+}
+
+.ie7.remote .c-linkbtn__txt {
+  bottom: 8px;
+  left: 8px;
+}
+
+.ie7.remote .c-linkbtn__icn {
+  position: absolute;
+  z-index: 999;
+}
+
+.ie7.remote.cgtp .c-linkbtn__txt {
+  line-height: 18px;
+  bottom: 5px;
+  left: 5px;
+  font-size: 13px;
+}
+
+/** Navigation **/
+
+.c-navi__header {
+  height: 150px;
+  padding: 10px;
+  background-color: #3a3a3b;
+  border-bottom: #ffffff solid 1px;
+}
+
+.c-navi__header>h1 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.c-navi__wizard {
+  background-color: #afbbc9;
+}
+
+.c-navi__item {
+  display: table;
+  width: 100%;
+  border-bottom: #dad9dc solid 1px;
+  color: #ffffff
+}
+
+.c-navi__item--enable {
+  background-color: #67727e;
+}
+
+.c-navi__item--disable {
+  background-color: #67727e;
+}
+
+.c-navi__item--focus {
+  background-color: #4a7799;
+}
+
+.c-navi__item--active {
+  background-color: #0e6eb8;
+}
+
+.c-navi__item>a {
+  display: table-cell;
+  padding: 0 10px;
+  height: 63px;
+  font-size: 20px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+/****************************/
+/*         iPendant         */
+/****************************/
+
+#ipendant .c-navi__header {
+  display: none;
+}
+
+#ipendant .c-navi__list {
+  display: block;
+}
+
+#ipendant .c-navi__list>ul {
+  top: 0px;
+  z-index: 1000;
+}
+
+#ipendant .c-navi__item {
+  display: block;
+  width: 210px;
+  border-bottom: #dad9dc solid 2px;
+}
+
+#ipendant .c-navi__item>a {
+  display: block;
+  padding: 14px 8px;
+  width: 194px;
+  height: 100%;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* for IE7 float bug */
+html[lang="kn"] #ipendant .c-navi__item>a {
+  margin-bottom: -4px;
+}
+
+#ipendant .c-navi__item--twoline {
+  padding: 12px 8px;
+  line-height: 26px;
+}
+
+/****************************/
+/*    Remote(jcgtp-size)    */
+/****************************/
+
+.remote .c-navi__header {
+  display: none;
+}
+
+.remote .c-navi__list {
+  display: block;
+}
+
+.remote .c-navi__list>ul {
+  top: 0;
+  z-index: 1000;
+}
+
+.remote .c-navi__item {
+  width: 284px;
+  border-bottom: #dad9dc solid 2px;
+}
+
+.remote .c-navi__item>a {
+  display: block;
+  zoom: 1;
+  padding: 22px 13px;
+  width: 100%;
+  height: auto;
+  font-size: 19px;
+  line-height: 21px;
+}
+
+.remote .c-navi__item--twoline {
+  padding: 9px 8px;
+  line-height: 73px;
+}
+
+.remote .c-navi__item--active {
+  background: #0e6eb8;
+}
+
+/****************************/
+/*    Remote(cgtp-size)     */
+/****************************/
+
+.remote.cgtp .c-navi__item {
+  width: auto;
+  border-bottom: #dad9dc solid 2px;
+}
+
+.remote.cgtp .c-navi__item > a {
+  padding: 12px 8px;
+  width: 210px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+/****************************/
+/*            IE 7          */
+/****************************/
+
+.ie7 .c-navi__item {
+  border-bottom: #dad9dc solid 2px;
+  cursor: pointer;
+}
+
+.ie7.parent .c-navi__header{
+  width: 310px;
+}
+
+.ie7.parent .c-navi__item {
+  padding: 3px 0px;
+  height: 55px;
+}
+
+.ie7.parent .c-navi__item>a {
+  display: block;
+  height: 100%;
+  line-height: 55px;
+}
+
+.ie7.remote .c-navi__item>a {
+  width: 100%;
+  font-size: 18px;
+}
+
+.ie7.remote.cgtp .c-navi__item>a {
+  width: 200px;
+  font-size: 14px;
+}
+
+/** Sprite for LinkButton **/
+
+.c-sprite {
+  background-image: url(rbhp_sprite.png);
+  background-repeat: no-repeat;
+}
+
+.c-sprite--fanucja {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -5px;
+}
+
+.c-sprite--fanucus {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -5px;
+}
+
+.c-sprite--fanuceu {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -5px;
+}
+
+.c-sprite--btnlink_04 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -5px;
+}
+
+.c-sprite--btnlink_05 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -5px;
+}
+
+.c-sprite--btnlink_06 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -5px;
+}
+
+.c-sprite--btnlink_07 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -5px;
+}
+
+.c-sprite--btnlink_08 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -83px;
+}
+
+.c-sprite--btnlink_09 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -83px;
+}
+
+.c-sprite--btnlink_10 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -83px;
+}
+
+.c-sprite--btnlink_11 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -83px;
+}
+
+.c-sprite--btnlink_12 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -83px;
+}
+
+.c-sprite--btnlink_13 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -83px;
+}
+
+.c-sprite--btnlink_14 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -83px;
+}
+
+.c-sprite--btnlink_15 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -161px;
+}
+
+.c-sprite--btnlink_16 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -161px;
+}
+
+.c-sprite--btnlink_17 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -161px;
+}
+
+.c-sprite--btnlink_18 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -161px;
+}
+
+.c-sprite--btnlink_19 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -161px;
+}
+
+.c-sprite--btnlink_20 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -161px;
+}
+
+.c-sprite--btnlink_21 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -161px;
+}
+
+.c-sprite--btnlink_22 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -239px;
+}
+
+.c-sprite--btnlink_23 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -239px;
+}
+
+.c-sprite--btnlink_24 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -239px;
+}
+
+.c-sprite--btnlink_25 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -239px;
+}
+
+.c-sprite--btnlink_26 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -239px;
+}
+
+.c-sprite--btnlink_27 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -239px;
+}
+
+.c-sprite--btnlink_28 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -239px;
+}
+
+.c-sprite--btnlink_29 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -317px;
+}
+
+.c-sprite--btnlink_30 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -317px;
+}
+
+.c-sprite--btnlink_31 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -317px;
+}
+
+.c-sprite--btnlink_32 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -317px;
+}
+
+.c-sprite--btnlink_33 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -317px;
+}
+
+.c-sprite--btnlink_34 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -317px;
+}
+
+.c-sprite--btnlink_35 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -317px;
+}
+
+.c-sprite--btnlink_36 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -395px;
+}
+
+.c-sprite--btnlink_37 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -395px;
+}
+
+.c-sprite--btnlink_38 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -395px;
+}
+
+.c-sprite--btnlink_39 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -395px;
+}
+
+.c-sprite--btnlink_40 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -395px;
+}
+
+.c-sprite--btnlink_41 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -395px;
+}
+
+.c-sprite--btnlink_42 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -395px;
+}
+
+.c-sprite--btnlink_43 {
+  width: 68px;
+  height: 68px;
+  background-position: -5px -473px;
+}
+
+.c-sprite--btnlink_44 {
+  width: 68px;
+  height: 68px;
+  background-position: -83px -473px;
+}
+
+.c-sprite--btnlink_45 {
+  width: 68px;
+  height: 68px;
+  background-position: -161px -473px;
+}
+
+.c-sprite--btnlink_46 {
+  width: 68px;
+  height: 68px;
+  background-position: -239px -473px;
+}
+
+.c-sprite--btnlink_47 {
+  width: 68px;
+  height: 68px;
+  background-position: -317px -473px;
+}
+
+.c-sprite--btnlink_48 {
+  width: 68px;
+  height: 68px;
+  background-position: -395px -473px;
+}
+
+.c-sprite--btnlink_49 {
+  width: 68px;
+  height: 68px;
+  background-position: -473px -473px;
+}
+
+.c-sprite--btnlink_50 {
+  width: 68px;
+  height: 68px;
+  background-position: -551px -5px;
+}
+
+.c-sprite--btnlink_51 {
+  width: 68px;
+  height: 68px;
+  background-position: -551px -83px;
+}
+.c-sprite--btnlink_53 { width: 68px; height: 68px; background-position: -551px -161px; }
+
+.c-sprite--btnlink_54 { width: 68px; height: 68px; background-position: -551px -473px; }
+
+.c-sprite--btnlink_56 { width: 68px; height: 68px; background-position: -5px -551px; }
+
+/* Project
+   ----------------------------------------------------------------- */
+
+/* default */
+
+/* Main  */
+
+.p-maincolinner {
+  display: none;
+  height: auto;
+  overflow: hidden;
+}
+
+.p-maintitle {
+  display: table;
+  width: 100%;
+  height: 93px;
+  padding-left: 40px;
+  background-color: #c7ced7;
+  border-bottom: #c7ced7 solid 1px;
+}
+
+.p-maintitle>h2 {
+  display: table-cell;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.p-maincontents {
+  padding: 14px 0;
+  height: 100%;
+}
+
+.p-linkbtnwrap {
+  display: block;
+  width: 100%;
+  min-width: 560px;
+  max-width: 1000px;
+  margin: 0 auto -30px;
+}
+
+.p-notetxt {
+  padding: 0 10px;
+  color: #000000;
+  margin-left: 6px;
+}
+
+/****************************/
+/*         iPendant         */
+/****************************/
+
+#ipendant .p-maincolinner {
+  height: auto !important;
+  width: 100%;
+}
+
+#ipendant .p-maintitle {
+  display: block;
+  width: auto;
+  height: auto;
+  padding-top: 14px;
+  padding-left: 13px;
+  padding-bottom: 14px;
+}
+
+#ipendant .p-maintitle>h2 {
+  display: inline;
+  font-size: 20px;
+}
+
+#ipendant .p-maincontents {
+  width: 675px;
+  max-width: auto;
+  min-width: auto;
+  padding: 14px 0 38px;
+  overflow: hidden;
+}
+
+#ipendant .p-linkbtnwrap {
+  display: block;
+  min-width: auto;
+  width: 66%;
+  margin: 0 auto;
+  margin-left: -7px;
+  padding: 0 0 0 1%;
+}
+
+#ipendant .p-notetxt {
+  font-size: 14px;
+  width: 60%;
+}
+
+/****************************/
+/*    Remote(jcgtp-size)    */
+/****************************/
+
+.remote .p-maintitle {
+  display: block;
+  width: auto;
+  height: auto;
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-bottom: 17px;
+}
+
+.remote .p-maintitle>h2 {
+  display: inline;
+  color: #000000;
+  font-size: 23px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+.remote .p-maincontents {
+  padding: 13px 0;
+}
+
+.remote .maincontents {
+  width: 675px;
+  max-width: auto;
+  min-width: auto;
+  padding: 20px 0 38px;
+  background: #e1e7ec;
+  overflow: hidden;
+}
+
+.remote .twoline {
+  height: 399px;
+  padding: 38px 0;
+}
+
+.remote .notetxt {
+  font-size: 14px;
+  color: #000;
+}
+
+.remote .p-linkbtnwrap {
+  display: block;
+  min-width: auto;
+  margin: 0 auto;
+  padding: 0 0 0 1%;
+}
+
+/****************************/
+/*    Remote(cgtp-size)     */
+/****************************/
+
+.remote.cgtp .p-maintitle {
+  padding-top: 12px;
+  padding-left: 13px;
+  padding-bottom: 14px;
+}
+
+.remote.cgtp .p-maintitle > H2 {
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+.remote.cgtp .p-maincontents {
+  padding: 15px 0;
+}
+
+.remote.cgtp .p-notetxt {
+  font-size: 14px;
+}
+
+/****************************/
+/*            IE 7          */
+/****************************/
+
+.ie7 .p-maintitle {
+  display: block;
+}
+
+.ie7 .p-maintitle>h2 {
+  line-height: 93px;
+}
+
+.ie7.remote .p-maintitle {
+  padding-top: 14px;
+  padding-left: 11px;
+  padding-bottom: 14px;
+}
+
+.ie7.remote .p-maintitle>h2 {
+  line-height: 47px;
+}
+
+.ie7.remote.cgtp .p-maintitle {
+  padding-top: 11px;
+  padding-left: 9px;
+  padding-bottom: 11px;
+}
+
+.ie7.remote.cgtp .p-maintitle>h2 {
+  line-height: 37px;
+  font-size: 18px;
+}
+
+/* Utitlity
+   ----------------------------------------------------------------- */
+
+.u-clearfix {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}

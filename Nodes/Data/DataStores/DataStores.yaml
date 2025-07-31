@@ -1,0 +1,1257 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: AlarmHistoryDB
+  Id: g=3346f9bd0fd0050195c1f52fd16e64b9
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: AlarmsEventLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Index
+          Type: StoreColumn
+          DataType: String
+        - Name: Type
+          Type: StoreColumn
+          DataType: String
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+        - Name: 'Message_es-MX'
+          Type: StoreColumn
+          DataType: String
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+  - Class: Reference
+    Target: ns=31;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AlarmHistory"
+- Name: COAndGlueRecipeDB
+  Id: g=7382e4c755b97c8be68f28d4086f9c0c
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: COAndGlueSchema
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_0
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_1
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_2
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_3
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_4
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_5
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_6
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_7
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_8
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_9
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_10
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_11
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_12
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_13
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_14
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_15
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_16
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_17
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_18
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_19
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_20
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_21
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_22
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_23
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_24
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_25
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_26
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_27
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_28
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverSettings_29
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_0
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_1
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_2
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_3
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_4
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_5
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_6
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_7
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_8
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_9
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_10
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_11
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_12
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_13
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_14
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_15
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_16
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_17
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_18
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_19
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_20
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_21
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_22
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_23
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_24
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_25
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_26
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_27
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_28
+          Type: StoreColumn
+          DataType: String
+        - Name: /ChangeOverDefaults_29
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_0
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_1
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_2
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_3
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_4
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_5
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_6
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_7
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_8
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_9
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_10
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_11
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_12
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_13
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomOptionsSettings_14
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_0
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_1
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_2
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_3
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_4
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_5
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_6
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_7
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_8
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_9
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_10
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_11
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_12
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_13
+          Type: StoreColumn
+          DataType: String
+        - Name: /CustomDefaults_14
+          Type: StoreColumn
+          DataType: String
+        - Name: /Robot1_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_18
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_19
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_20
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_21
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_22
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_23
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_24
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_25
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_26
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_27
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_28
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Integers_29
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_18
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_19
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_20
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_21
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_22
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_23
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_24
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_25
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_26
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_27
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_28
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /IntegersDefaults_29
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Real_0
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_1
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_2
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_3
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_4
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_5
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_6
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_7
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_8
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_9
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_10
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_11
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_12
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_13
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_14
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_15
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_16
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_17
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_18
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Real_19
+          Type: StoreColumn
+          DataType: Float
+        - Name: /TimerPreset_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_18
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_19
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_20
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_21
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_22
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_23
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_24
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_25
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_26
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_27
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_28
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /TimerPreset_29
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_10
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_11
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_12
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_13
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_14
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_15
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_16
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_17
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_18
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /VFDSpeed_19
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Pick_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Pick_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Pick_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Pick_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Place_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Place_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Place_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot1Place_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Pick_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Pick_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Pick_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Pick_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Place_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Place_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Place_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot2Place_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Pick_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Pick_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Pick_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Pick_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Place_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Place_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Place_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot3Place_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Pick_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Pick_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Pick_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Pick_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Place_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Place_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Place_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot4Place_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Pick_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Pick_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Pick_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Pick_3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Place_0
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Place_1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Place_2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Robot5Place_3
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=31;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "COAndGlue"
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32

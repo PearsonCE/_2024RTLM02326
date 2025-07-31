@@ -1,0 +1,35 @@
+Name: 'Program:P03_BufferIO'
+Type: FolderType
+Children:
+- Name: All_Estop_OK
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P03_BufferIO.All_Estop_OK"
+- Name: NorthLineTriggerConfrm
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P03_BufferIO.NorthLineTriggerConfrm"
+- Name: OneShots
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P03_BufferIO.OneShots"
+- Name: SouthLineTriggerConfrm
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P03_BufferIO.SouthLineTriggerConfrm"

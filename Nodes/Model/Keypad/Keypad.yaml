@@ -1,0 +1,26 @@
+Name: Keypad
+Type: FolderType
+Children:
+- Name: NumericalKeypadVariables
+  Type: BaseObjectType
+  Children:
+  - Name: MaximumValue
+    Id: g=6495aef7c3e536c98477d155932d7756
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: MinimumValue
+    Id: g=1ff760c7354f0f8b3a2962948cfbc973
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: HasRange
+    Id: g=35c7d53c12ade773f93b4e8f5d479b91
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: TriggerUpdate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: NoDecimals
+    Id: g=7e6a4a1ba31172a91faa832f04140d19
+    Type: BaseDataVariableType
+    DataType: Boolean

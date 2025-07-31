@@ -1,0 +1,1934 @@
+Name: 'Program:CM03_1_Robot1'
+Type: FolderType
+Children:
+- Name: Array_Vision_CalNumber
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_CalNumber"
+- Name: Array_Vision_CalRotation
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_CalRotation"
+- Name: Array_Vision_CalXpos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_CalXpos"
+- Name: Array_Vision_CalYpos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_CalYpos"
+- Name: Array_Vision_Cal_Dark
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_Cal_Dark"
+- Name: Array_Vision_Cal_Focus
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_Cal_Focus"
+- Name: Array_Vision_Cal_Light
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_Cal_Light"
+- Name: Array_Vision_Cal_Score
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_Cal_Score"
+- Name: Array_Vision_Cal_Timestamp
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Array_Vision_Cal_Timestamp"
+- Name: CommCheckTMR
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.CommCheckTMR.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.CommCheckTMR.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.CommCheckTMR.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.CommCheckTMR.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.CommCheckTMR.DN"
+- Name: DryCycleRate
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.DryCycleRate"
+- Name: DryCycleTriggerDLY_Preset
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.DryCycleTriggerDLY_Preset"
+- Name: DryCycleTrigger_DLY
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.DryCycleTrigger_DLY.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.DryCycleTrigger_DLY.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.DryCycleTrigger_DLY.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.DryCycleTrigger_DLY.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.DryCycleTrigger_DLY.DN"
+- Name: FIFO_VisionCalNum
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalNum.FD"
+- Name: FIFO_VisionCalRotation
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalRotation.FD"
+- Name: FIFO_VisionCalXpos
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalXpos.FD"
+- Name: FIFO_VisionCalYpos
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCalYpos.FD"
+- Name: FIFO_VisionCal_Dark
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Dark.FD"
+- Name: FIFO_VisionCal_Focus
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Focus.FD"
+- Name: FIFO_VisionCal_Light
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Light.FD"
+- Name: FIFO_VisionCal_Score
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Score.FD"
+- Name: FIFO_VisionCal_Timestamp
+  Type: CONTROL
+  DataType: CONTROL
+  Children:
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.POS"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.EN"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.EU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.EM"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.ER"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.UL"
+  - Name: IN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.IN"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.FIFO_VisionCal_Timestamp.FD"
+- Name: FLT_RobotCommunication
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.FLT_RobotCommunication"
+- Name: FLT_RobotFaulted
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.FLT_RobotFaulted"
+- Name: FLT_RobotProgramNotRunning
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.FLT_RobotProgramNotRunning"
+- Name: FLT_Robot_Dropped_Product
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.FLT_Robot_Dropped_Product"
+- Name: GripOpenPulse
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.GripOpenPulse.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.GripOpenPulse.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.GripOpenPulse.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.GripOpenPulse.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.GripOpenPulse.DN"
+- Name: Lockout
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Lockout"
+- Name: MaintenanceEnable_DLY
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.MaintenanceEnable_DLY.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.MaintenanceEnable_DLY.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.MaintenanceEnable_DLY.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.MaintenanceEnable_DLY.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.MaintenanceEnable_DLY.DN"
+- Name: MES_RobotDisabled
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotDisabled"
+- Name: MES_RobotLowBattery
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotLowBattery"
+- Name: MES_RobotPanelEstopDown
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotPanelEstopDown"
+- Name: MES_RobotT1Mode
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotT1Mode"
+- Name: MES_RobotTPEstopDown
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotTPEstopDown"
+- Name: MES_RobotTP_Enabled
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MES_RobotTP_Enabled"
+- Name: MSG_Sequenece
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.MSG_Sequenece"
+- Name: OS
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.OS"
+- Name: PB_RobotCalibRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.PB_RobotCalibRequest"
+- Name: R1ApprAdjust
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R1ApprAdjust"
+- Name: R1_RecipeChanged
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R1_RecipeChanged"
+- Name: R1_RecipeChangeReq
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R1_RecipeChangeReq"
+- Name: R2_RecipeChanged
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R2_RecipeChanged"
+- Name: R2_RecipeChangeReq
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R2_RecipeChangeReq"
+- Name: R3_RecipeChanged
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R3_RecipeChanged"
+- Name: R3_RecipeChangeReq
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R3_RecipeChangeReq"
+- Name: R4_RecipeChanged
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R4_RecipeChanged"
+- Name: R4_RecipeChangeReq
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.R4_RecipeChangeReq"
+- Name: RegMsgTimer
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RegMsgTimer.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RegMsgTimer.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RegMsgTimer.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RegMsgTimer.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RegMsgTimer.DN"
+- Name: RobotCommCheck
+  Type: Comm_Fault_Check
+  DataType: Comm_Fault_Check
+  Children:
+  - Name: Description
+    Type: RAEtherNetIPMetaTag
+    DataType: String
+    Value: "heartbeat"
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotCommCheck.@Description"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotCommCheck.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotCommCheck.EnableOut"
+  - Name: Comm_Input
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Input"
+  - Name: Comm_Fault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Fault"
+  - Name: Comm_Off_Time
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Off_Time.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Off_Time.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Off_Time.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Off_Time.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_Off_Time.DN"
+  - Name: Comm_On_Time
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_On_Time.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_On_Time.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_On_Time.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_On_Time.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:CM03_1_Robot1.RobotCommCheck.Comm_On_Time.DN"
+- Name: RobotSafetyLoss_DLY
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotSafetyLoss_DLY.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotSafetyLoss_DLY.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotSafetyLoss_DLY.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotSafetyLoss_DLY.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.RobotSafetyLoss_DLY.DN"
+- Name: Robot_Cal_Data
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [21]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Robot_Cal_Data"
+- Name: Robot_CommStatus
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Robot_CommStatus"
+- Name: Robot_ProgramStartCheck_DLY
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.Robot_ProgramStartCheck_DLY.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.Robot_ProgramStartCheck_DLY.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.Robot_ProgramStartCheck_DLY.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.Robot_ProgramStartCheck_DLY.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.Robot_ProgramStartCheck_DLY.DN"
+- Name: SETUP_VALUES
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [25]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.SETUP_VALUES"
+- Name: TriggerOffTMR
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.TriggerOffTMR.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.TriggerOffTMR.ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.TriggerOffTMR.EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.TriggerOffTMR.TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.TriggerOffTMR.DN"
+- Name: VisionCal_Dark
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Dark.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Dark.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Dark.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Dark.Actual"
+- Name: VisionCal_Focus
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Focus.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Focus.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Focus.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Focus.Actual"
+- Name: VisionCal_Light
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Light.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Light.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Light.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Light.Actual"
+- Name: VisionCal_Rotation
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Rotation.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Rotation.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Rotation.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Rotation.Actual"
+- Name: VisionCal_Score
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Score.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Score.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Score.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_Score.Actual"
+- Name: VisionCal_Timestamp
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.VisionCal_Timestamp"
+- Name: VisionCal_XPos
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_XPos.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_XPos.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_XPos.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_XPos.Actual"
+- Name: VisionCal_YPos
+  Type: UDT_Perf_Stat_Real
+  DataType: UDT_Perf_Stat_Real
+  Children:
+  - Name: Mean
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_YPos.Mean"
+  - Name: UCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_YPos.UCL"
+  - Name: LCL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_YPos.LCL"
+  - Name: Actual
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:CM03_1_Robot1.VisionCal_YPos.Actual"
+- Name: Vision_Cal_chk_Score
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_chk_Score"
+- Name: Vision_Cal_Dark_Max
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_Dark_Max"
+- Name: Vision_Cal_Focus
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_Focus"
+- Name: Vision_Cal_Light_Mean
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_Light_Mean"
+- Name: Vision_Cal_Number
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_Number"
+- Name: Vision_Cal_rotation
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_rotation"
+- Name: Vision_Cal_scale
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_scale"
+- Name: Vision_Cal_Timestamp1
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_Timestamp1"
+- Name: Vision_Cal_x_pos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_x_pos"
+- Name: Vision_Cal_y_pos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.Vision_Cal_y_pos"
+- Name: WaitAtPick
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.WaitAtPick"
+- Name: WaitAtPickAppr
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.WaitAtPickAppr"
+- Name: WaitAtPlace
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.WaitAtPlace"
+- Name: WaitAtPlaceAppr
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:CM03_1_Robot1.WaitAtPlaceAppr"

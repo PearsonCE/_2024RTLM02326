@@ -1,0 +1,16 @@
+Name: Templates
+Type: FolderType
+Children:
+- File: Menus/Menus.yaml
+- File: MachineOptions/MachineOptions.yaml
+- File: Screens/Screens.yaml
+- File: Alarm/Alarm.yaml
+- File: Message_Icons/Message_Icons.yaml
+- File: Admin/Admin.yaml
+- File: SOL/SOL.yaml
+- File: Sensors/Sensors.yaml
+- File: CPIconsold/CPIconsold.yaml
+- File: CP_Map_Icons/CP_Map_Icons.yaml
+- File: Global_Templates/Global_Templates.yaml
+- File: Other/Other.yaml
+- File: Robot_Controls/Robot_Controls.yaml

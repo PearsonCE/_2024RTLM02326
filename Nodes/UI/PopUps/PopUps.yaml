@@ -1,0 +1,16 @@
+Name: PopUps
+Type: FolderType
+Children:
+- File: AlarmDetails/AlarmDetails.yaml
+- File: PopUpsSettings/PopUpsSettings.yaml
+- File: IOMapPopups/IOMapPopups.yaml
+- File: CO_Map/CO_Map.yaml
+- File: RecipeEdit/RecipeEdit.yaml
+- File: InfoPopups/InfoPopups.yaml
+- File: SetupValues/SetupValues.yaml
+- File: Help_Other/Help_Other.yaml
+- File: Help_Training/Help_Training.yaml
+- File: CP_Info/CP_Info.yaml
+- File: Development/Development.yaml
+- File: Help_MachineLight/Help_MachineLight.yaml
+- File: NumericalKeypad/NumericalKeypad.yaml

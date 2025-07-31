@@ -1,0 +1,218 @@
+Name: Descriptions
+Type: FolderType
+Children:
+- Name: CPDescriptions
+  Type: BaseObjectType
+  Children:
+  - Name: CPDescription1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Case Rail Guide"}
+  - Name: CPDescription2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Height"}
+  - Name: CPDescription3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide 1"}
+  - Name: CPDescription4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide 2"}
+  - Name: CPDescription5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide 3"}
+  - Name: CPDescription6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide Width 1"}
+  - Name: CPDescription7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide Width 2"}
+  - Name: CPDescription8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription10
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription11
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription12
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription13
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription14
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription15
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription16
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription17
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription18
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription19
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription20
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription21
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription22
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription23
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription24
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription25
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CPDescription26
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CPDescription27
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CPDescription28
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CPDescription29
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: CPDescription30
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CPDescription31
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+- Name: GlueDescriptions
+  Type: BaseObjectType
+  Children:
+  - Name: GlueDescription1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"First Start"}
+  - Name: GlueDescription2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"First Stop"}
+  - Name: GlueDescription3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"Second Start"}
+  - Name: GlueDescription4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"Second Stop"}
+  - Name: GlueDescription5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+  - Name: GlueDescription6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+  - Name: GlueDescription7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+  - Name: GlueDescription8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+  - Name: GlueDescription9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+  - Name: GlueDescription10
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"0"}
+- Name: CustomOptionsDescriptions
+  Type: BaseObjectType
+  Children:
+  - Name: CustomOptionsDescription1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"Machine Speed"}
+  - Name: CustomOptionsDescription2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"Mandrel Retract Position"}
+  - Name: CustomOptionsDescription3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":36,"TextId":"Mandrel Offset Position"}
+  - Name: CustomOptionsDescription4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription10
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription11
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription12
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription13
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription14
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}
+  - Name: CustomOptionsDescription15
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"spare"}

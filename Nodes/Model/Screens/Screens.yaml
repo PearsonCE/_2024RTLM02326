@@ -1,0 +1,88 @@
+Name: Screens
+Type: FolderType
+Children:
+- File: Home_Machine/Home_Machine.yaml
+- File: Recipe/Recipe.yaml
+- File: CO/CO.yaml
+- File: Glue/Glue.yaml
+- File: Login/Login.yaml
+- Name: ScreenCurrent
+  Id: g=b0015f0bb0435c8ffcc533bb282eece9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/_HMI/ScreenNumFromHMI"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: GoDriectScreenInterlock
+  Id: g=49b0fc7a7d84a5abd4b101004cac602b
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: IOMapVariables
+  Type: BaseObjectType
+  Children:
+  - Name: ShowOutputs
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ShowInputs
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+    Children:
+    - Name: ConditionalConverter1
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../ShowOutputs"
+      - Name: TrueValue
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+      - Name: FalseValue
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+        Value: true
+  - Name: MainEnableToggle
+    Id: g=8ae6c7402a5e3b40bbaea6028f25e363
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ResetToggle
+    Id: g=46a8f3b853d4a8deefaad5adf34bb4c6
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ModeToggle
+    Id: g=c865273f3a9b669bddec1fe43cd0d492
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CompleteCheckToggle
+    Id: g=a4d03419ddc4ee50492e42c9a7ed557e
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InputInfoToggle
+    Id: g=403fcfa1f2cd435423bc3e987c827abb
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: OutputInfoToggle
+    Id: g=78e41f197c98eaa5380c290d6ea64670
+    Type: BaseDataVariableType
+    DataType: Boolean
+- File: CO_Map/CO_Map.yaml
+- File: Development/Development.yaml
+- File: Servo/Servo.yaml
+- File: RobotOffsets/RobotOffsets.yaml
+- File: Setup/Setup.yaml

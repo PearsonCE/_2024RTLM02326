@@ -1,0 +1,59 @@
+Name: RecipeCSVs
+Type: FolderType
+Children:
+- Name: RecipeImport
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/Recipes/COAndGlueImport.csv"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: RecipeExport
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/Recipes/COAndGlueExport.csv"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: RecipeExportSnapshot
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/Recipes/Backups/COAndGlueSnapshot.csv"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: RecipeStartup
+  Type: SDPathBaseObject
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%USB1%/Recipes/COAndGlueStartup.csv"
+  - Name: IsPathValid
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

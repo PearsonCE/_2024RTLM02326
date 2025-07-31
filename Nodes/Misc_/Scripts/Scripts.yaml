@@ -1,0 +1,116 @@
+Name: Scripts
+Type: FolderType
+Children:
+- Name: SensorsScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateSensors
+  - Class: Method
+    Name: Update_Custom_Sensor
+  - Name: Sensor_Change_From
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Sensor_Change_To
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: SolsScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: SOL_Change_From
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: SOL_Change_To
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Class: Method
+    Name: CreateSolenoids
+  - Class: Method
+    Name: Update_Custom_Solenoid
+- Name: ChangeoverScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateNewChangePoint
+  - Name: CP Index
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8
+  - Name: CP Description
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Funnel Guide Width2"}
+  - Name: CP Instructions
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"1. Loosen the quick-release handles.\n2. Slide the guides to the appropriate position.\n3. Tighten the quick-release handles."}
+  - Name: CP Image Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=36;%PROJECTDIR%/Images/Chagepoints/2024RTLM02327 - CP B-2 Arrow.png"
+  - Name: OverwriteExisting_CPDescription
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: OverwriteExisting_CPInstructions
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: OverwriteExisting_CPImagePath
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: CustomOptionScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateNewCustomOption
+  - Name: Custom Index
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Custom Description
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Enter Custom Description Here"}
+  - Name: OverwriteExisting_CustomDescription
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MessagesScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: Propagate_Message_Names
+- Name: AlarmsScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: Propagate_Alarm_Names

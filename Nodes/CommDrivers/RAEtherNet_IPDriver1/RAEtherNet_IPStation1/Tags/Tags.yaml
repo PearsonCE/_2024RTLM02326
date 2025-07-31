@@ -1,0 +1,11 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_CM01_ProductControl/Program_CM01_ProductControl.yaml
+- File: Program_CM02_CaseControl/Program_CM02_CaseControl.yaml
+- File: Program_CM03_1_Robot1/Program_CM03_1_Robot1.yaml
+- File: Program_EM01_Machine/Program_EM01_Machine.yaml
+- File: Program_MachineRate/Program_MachineRate.yaml
+- File: Program_P01_MainProgram/Program_P01_MainProgram.yaml
+- File: Program_P03_BufferIO/Program_P03_BufferIO.yaml

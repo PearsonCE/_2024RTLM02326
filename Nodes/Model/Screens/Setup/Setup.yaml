@@ -1,0 +1,77 @@
+Name: Setup
+Type: FolderType
+Children:
+- Name: SetupVariables
+  Type: BaseObjectType
+  Children:
+  - Name: SetupInEdit
+    Id: g=351d064332ba78cb0135980ac98a29a2
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SetupSaveRequest
+    Id: g=6716a87df8bf33de9d968d78ad1cb3a8
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SetupInEditTransitioned
+    Id: g=e26f1a00b3ce5b4d52860fff955888af
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../SetupInEdit"
+  - Name: SetupSaveRequestTransitioned
+    Id: g=506c4c67132160a1095549c930846956
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../SetupSaveRequest"
+  - Name: SetupApplyRequest
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SetupInStartup
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: MachineFilterSelected
+    Id: g=9cd27053e515dec166b877731fdcca13
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: RecipeFilterSelected
+    Id: g=6dd974a60e7005ed631ff202116ba415
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SelectedFilter
+    Id: g=b933529a537f466363dd4f321aaaca47
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "All"
+- Class: DataType
+  Name: SetupFilterOptions
+  Id: g=0618070784758b8c45140585955588c4
+  Supertype: Enumeration
+  Children:
+  - Name: ns=0;EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"All"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"Machine"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"Recipe"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
