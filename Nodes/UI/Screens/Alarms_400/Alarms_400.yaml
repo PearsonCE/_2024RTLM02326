@@ -1909,7 +1909,7 @@ Children:
             DataType: Boolean
             ModellingRule: Optional
             Value: true
-        - Name: Flap_Containment_Failed_to_Actuate_0_15_Preview1
+        - Name: Flap_Containment_Failed_to_Actuate_Preview0
           Type: Flap_Containment_Failed_to_Actuate_0_15_Preview
           Children:
           - Name: Width
@@ -2239,7 +2239,7 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
-        - Name: Camera_Failed_to_Capture_Product_0_16_Preview1
+        - Name: Camera_Failed_to_Capture_Product_Preview0
           Type: Camera_Failed_to_Capture_Product_0_16_Preview
           Children:
           - Name: Width

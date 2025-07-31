@@ -9021,7 +9021,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 250.0
-    - Name: Camera_Failed_to_Capture_Product_0_16_ALM1
+    - Name: Camera_Failed_to_Capture_Product_ALM0
       Type: Camera_Failed_to_Capture_Product_0_16_ALM
       Children:
       - Name: Visible
