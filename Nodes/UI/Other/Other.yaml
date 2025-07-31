@@ -156,6 +156,7 @@ Children:
     DataType: UInt32
     Value: 1
   - Name: Session
+    Id: g=180fa15e1427fb0965584e33d991acc4
     Type: NodePointer
     DataType: NodeId
 - File: SettingsWidgets/SettingsWidgets.yaml

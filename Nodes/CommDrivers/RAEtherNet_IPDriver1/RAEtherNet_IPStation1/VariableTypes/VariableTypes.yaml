@@ -8011,6 +8011,54 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "GeneralEvent_Length"
+    - Name: StopEventIndex_Start
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "StopEventIndex_Start"
+    - Name: StopEvent_Length
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "StopEvent_Length"
+    - Name: WarningEventIndex_Start
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WarningEventIndex_Start"
+    - Name: WarningEvent_Length
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WarningEvent_Length"
+    - Name: GeneralEventIndex_Start
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "GeneralEventIndex_Start"
+    - Name: GeneralEvent_Length
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "GeneralEvent_Length"
   - Name: Event_List_Fault
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -12459,6 +12507,134 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "EXERR"
+    - Name: FLAGS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FLAGS"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ER"
+    - Name: PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PC"
+    - Name: IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IP"
+    - Name: AC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AC"
+    - Name: ACCEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACCEL"
+    - Name: DECEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DECEL"
+    - Name: TrackingMaster
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CalculatedDataAvailable"
+    - Name: ERR
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ERR"
+    - Name: STATUS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATUS"
+    - Name: STATE
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATE"
+    - Name: SEGMENT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SEGMENT"
+    - Name: EXERR
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EXERR"
   - Name: Move
     Type: MOTION_INSTRUCTION
     DataType: MOTION_INSTRUCTION
@@ -12861,6 +13037,134 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "EXERR"
+    - Name: FLAGS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FLAGS"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ER"
+    - Name: PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PC"
+    - Name: IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IP"
+    - Name: AC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AC"
+    - Name: ACCEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACCEL"
+    - Name: DECEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DECEL"
+    - Name: TrackingMaster
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CalculatedDataAvailable"
+    - Name: ERR
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ERR"
+    - Name: STATUS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATUS"
+    - Name: STATE
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATE"
+    - Name: SEGMENT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SEGMENT"
+    - Name: EXERR
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EXERR"
   - Name: Speed
     Type: RAEtherNetIPTag
     DataType: Float
@@ -16403,6 +16707,74 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "IdealValue"
+    - Name: Number
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Number"
+    - Name: ControlCmdNumber
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ControlCmdNumber"
+    - Name: CmdValue
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CmdValue"
+    - Name: Parameter
+      Type: UDT_PackML_Descriptor
+      DataType: UDT_PackML_Descriptor
+      Children:
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Unit
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Unit"
+      - Name: Value
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Value"
+      - Name: IdealValue
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IdealValue"
   - Name: Parameter
     Type: UDT_PackML_Descriptor
     DataType: UDT_PackML_Descriptor
@@ -16453,6 +16825,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "IdealValue"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: IdealValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealValue"
   - Name: Product
     Type: UDT_PackML_Product
     DataType: UDT_PackML_Product
@@ -16521,6 +16933,46 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "IdealValue"
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
       - Name: Ingredients
         Type: UDT_PackML_Ingredient
         DataType: UDT_PackML_Ingredient
@@ -16765,6 +17217,976 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "IdealValue"
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+        - Name: IngredientID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IngredientID"
+        - Name: Parameter
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: 0
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 1
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 2
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 3
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 4
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+    - Name: ProductID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ProductID"
+    - Name: ProcessVariables
+      Type: UDT_PackML_Descriptor
+      DataType: UDT_PackML_Descriptor
+      ValueRank: OneDimension
+      ArrayDimensions: [1]
+      Children:
+      - Name: 0
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Unit
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Unit"
+      - Name: Value
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Value"
+      - Name: IdealValue
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IdealValue"
+    - Name: Ingredients
+      Type: UDT_PackML_Ingredient
+      DataType: UDT_PackML_Ingredient
+      ValueRank: OneDimension
+      ArrayDimensions: [1]
+      Children:
+      - Name: 0
+        Type: UDT_PackML_Ingredient
+        DataType: UDT_PackML_Ingredient
+        Children:
+        - Name: IngredientID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IngredientID"
+        - Name: Parameter
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: 0
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 1
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 2
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 3
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 4
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+      - Name: IngredientID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IngredientID"
+      - Name: Parameter
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        ValueRank: OneDimension
+        ArrayDimensions: [5]
+        Children:
+        - Name: 0
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 1
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 2
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 3
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 4
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
 - Name: Comm_Fault_Check
   Id: g=dcbb79fd62d6507ea220e2b4baaf9530
   Supertype: TagStructure
@@ -17023,6 +18445,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "IdealValue"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: IdealValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealValue"
   - Name: Alarm
     Type: UDT_Event
     DataType: UDT_Event
@@ -18949,6 +20411,62 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "TimeAck"
+    - Name: Trigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trigger"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Action"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Message"
+    - Name: TimeEvent
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeEvent"
+    - Name: TimeAck
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeAck"
   - Name: AlarmExtent
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -34443,6 +35961,62 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "TimeAck"
+    - Name: Trigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trigger"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Action"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Message"
+    - Name: TimeEvent
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeEvent"
+    - Name: TimeAck
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeAck"
   - Name: EventExtent
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -34931,6 +36505,16 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "State"
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [18]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "State"
   - Name: ProdConsumedCount
     Type: UDT_PackML_CntDescrip
     DataType: UDT_PackML_CntDescrip
@@ -34989,6 +36573,54 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "UnitRatio"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Count"
+    - Name: AccCount
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccCount"
+    - Name: UnitRatio
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UnitRatio"
   - Name: ProdProcessedCount
     Type: UDT_PackML_CntDescrip
     DataType: UDT_PackML_CntDescrip
@@ -35047,6 +36679,54 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "UnitRatio"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Count"
+    - Name: AccCount
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccCount"
+    - Name: UnitRatio
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UnitRatio"
   - Name: ProdDefectiveCount
     Type: UDT_PackML_CntDescrip
     DataType: UDT_PackML_CntDescrip
@@ -35105,6 +36785,54 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "UnitRatio"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Count
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Count"
+    - Name: AccCount
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccCount"
+    - Name: UnitRatio
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UnitRatio"
   - Name: AccTimeSinceReset
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -35187,6 +36915,62 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "TimeAck"
+    - Name: Trigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trigger"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Action"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Message"
+    - Name: TimeEvent
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeEvent"
+    - Name: TimeAck
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TimeAck"
   - Name: AlarmHistoryExtent
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -38007,6 +39791,54 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "GeneralEvent_Length"
+      - Name: StopEventIndex_Start
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "StopEventIndex_Start"
+      - Name: StopEvent_Length
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "StopEvent_Length"
+      - Name: WarningEventIndex_Start
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "WarningEventIndex_Start"
+      - Name: WarningEvent_Length
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "WarningEvent_Length"
+      - Name: GeneralEventIndex_Start
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "GeneralEventIndex_Start"
+      - Name: GeneralEvent_Length
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "GeneralEvent_Length"
     - Name: Event_List_Fault
       Type: RAEtherNetIPTag
       DataType: Boolean
@@ -38933,6 +40765,46 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "DN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
     - Name: IO_StartUp
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -40011,6 +41883,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "DN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
   - Name: IO_StartUp
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -42745,6 +44657,134 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "EXERR"
+    - Name: FLAGS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FLAGS"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ER"
+    - Name: PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PC"
+    - Name: IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IP"
+    - Name: AC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AC"
+    - Name: ACCEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACCEL"
+    - Name: DECEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DECEL"
+    - Name: TrackingMaster
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CalculatedDataAvailable"
+    - Name: ERR
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ERR"
+    - Name: STATUS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATUS"
+    - Name: STATE
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATE"
+    - Name: SEGMENT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SEGMENT"
+    - Name: EXERR
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EXERR"
   - Name: Move
     Type: MOTION_INSTRUCTION
     DataType: MOTION_INSTRUCTION
@@ -43147,6 +45187,134 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "EXERR"
+    - Name: FLAGS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FLAGS"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ER"
+    - Name: PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PC"
+    - Name: IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IP"
+    - Name: AC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AC"
+    - Name: ACCEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACCEL"
+    - Name: DECEL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DECEL"
+    - Name: TrackingMaster
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CalculatedDataAvailable"
+    - Name: ERR
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ERR"
+    - Name: STATUS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATUS"
+    - Name: STATE
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "STATE"
+    - Name: SEGMENT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SEGMENT"
+    - Name: EXERR
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EXERR"
   - Name: Home
     Type: MOTION_INSTRUCTION
     DataType: MOTION_INSTRUCTION
@@ -45533,6 +47701,74 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "IdealValue"
+    - Name: Number
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Number"
+    - Name: ControlCmdNumber
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ControlCmdNumber"
+    - Name: CmdValue
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CmdValue"
+    - Name: Parameter
+      Type: UDT_PackML_Descriptor
+      DataType: UDT_PackML_Descriptor
+      Children:
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Unit
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Unit"
+      - Name: Value
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Value"
+      - Name: IdealValue
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IdealValue"
   - Name: Parameter
     Type: UDT_PackML_Descriptor
     DataType: UDT_PackML_Descriptor
@@ -45583,6 +47819,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "IdealValue"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: IdealValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealValue"
   - Name: Product
     Type: UDT_PackML_Product
     DataType: UDT_PackML_Product
@@ -45651,6 +47927,46 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "IdealValue"
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
       - Name: Ingredients
         Type: UDT_PackML_Ingredient
         DataType: UDT_PackML_Ingredient
@@ -45895,6 +48211,976 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "IdealValue"
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+        - Name: IngredientID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IngredientID"
+        - Name: Parameter
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: 0
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 1
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 2
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 3
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 4
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+    - Name: ProductID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ProductID"
+    - Name: ProcessVariables
+      Type: UDT_PackML_Descriptor
+      DataType: UDT_PackML_Descriptor
+      ValueRank: OneDimension
+      ArrayDimensions: [1]
+      Children:
+      - Name: 0
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Unit
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Unit"
+      - Name: Value
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Value"
+      - Name: IdealValue
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IdealValue"
+    - Name: Ingredients
+      Type: UDT_PackML_Ingredient
+      DataType: UDT_PackML_Ingredient
+      ValueRank: OneDimension
+      ArrayDimensions: [1]
+      Children:
+      - Name: 0
+        Type: UDT_PackML_Ingredient
+        DataType: UDT_PackML_Ingredient
+        Children:
+        - Name: IngredientID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IngredientID"
+        - Name: Parameter
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: 0
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 1
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 2
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 3
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: 4
+            Type: UDT_PackML_Descriptor
+            DataType: UDT_PackML_Descriptor
+            Children:
+            - Name: ID
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ID"
+            - Name: Name
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Name"
+            - Name: Unit
+              Type: RAEtherNetIPTag
+              DataType: String
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Unit"
+            - Name: Value
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Value"
+            - Name: IdealValue
+              Type: RAEtherNetIPTag
+              DataType: Float
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "IdealValue"
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+      - Name: IngredientID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IngredientID"
+      - Name: Parameter
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        ValueRank: OneDimension
+        ArrayDimensions: [5]
+        Children:
+        - Name: 0
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 1
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 2
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 3
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: 4
+          Type: UDT_PackML_Descriptor
+          DataType: UDT_PackML_Descriptor
+          Children:
+          - Name: ID
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ID"
+          - Name: Name
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Name"
+          - Name: Unit
+            Type: RAEtherNetIPTag
+            DataType: String
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Unit"
+          - Name: Value
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Value"
+          - Name: IdealValue
+            Type: RAEtherNetIPTag
+            DataType: Float
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "IdealValue"
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
   - Name: RemoteControlEnabled
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -53361,6 +56647,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "IdealValue"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: IdealValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealValue"
   - Name: Ingredients
     Type: UDT_PackML_Ingredient
     DataType: UDT_PackML_Ingredient
@@ -53605,6 +56931,320 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "IdealValue"
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+    - Name: IngredientID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IngredientID"
+    - Name: Parameter
+      Type: UDT_PackML_Descriptor
+      DataType: UDT_PackML_Descriptor
+      ValueRank: OneDimension
+      ArrayDimensions: [5]
+      Children:
+      - Name: 0
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: 1
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: 2
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: 3
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: 4
+        Type: UDT_PackML_Descriptor
+        DataType: UDT_PackML_Descriptor
+        Children:
+        - Name: ID
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ID"
+        - Name: Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Name"
+        - Name: Unit
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Unit"
+        - Name: Value
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Value"
+        - Name: IdealValue
+          Type: RAEtherNetIPTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "IdealValue"
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Unit
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Unit"
+      - Name: Value
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Value"
+      - Name: IdealValue
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "IdealValue"
 - Name: UDT_Machine_COND
   Id: g=e7232e582e53c6a5da6623e32ce953d2
   Supertype: TagStructure
@@ -54177,6 +57817,46 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "IdealValue"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Unit
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Unit"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Value"
+    - Name: IdealValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealValue"
 - Name: 'CHANNEL_DO_DIAG:I:0'
   Id: g=c64b55152f6c92ac861e0795861d2446
   Supertype: TagStructure
@@ -58093,6 +61773,22 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "DetailError"
+    - Name: MainError
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MainError"
+    - Name: DetailError
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DetailError"
 - Name: ControllerTime
   Id: g=416908604d827bda4ba1796df21b94ed
   Supertype: TagStructure
