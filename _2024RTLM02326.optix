@@ -146,10 +146,10 @@ Project:
    Module: FTOptix.NetLogic
    Version: 4.0
  Statistics:
-  TotalNodeCount: 162182
-  Objects: 24573
+  TotalNodeCount: 162057
+  Objects: 24539
   ObjectTypes: 617
-  Variables: 136704
+  Variables: 136613
   VariableTypes: 112
   DataTypes: 116
   Methods: 60
